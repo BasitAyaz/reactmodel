@@ -3,6 +3,7 @@ import "./screen.css";
 import Button from "../components/button";
 import Img from "../components/img";
 import DropDown from "../components/dropdown";
+import TableGrid from "../components/tablegrid";
 
 function ComponentsProps() {
   return (
@@ -64,13 +65,12 @@ function ComponentsProps() {
         </div>
         <div className="text-start py-5 p-4 rounded shadow bg-white my-5">
           <h2 className="p-3 color">button {`<Button />`}</h2>
-          <Button value="Value" />
+          <Button loading={true} value="Value" />
           <div className="py-4">
             <ul className="propList">
               <li>
                 <span className="color">onClick</span>=" "
               </li>
-
               <li>
                 <span className="color">value</span>=" "
               </li>
@@ -79,6 +79,9 @@ function ComponentsProps() {
               </li>
               <li>
                 <span className="color">style</span>= object
+              </li>
+              <li>
+                <span className="color">loading</span>= boolean
               </li>
             </ul>
           </div>
@@ -133,6 +136,22 @@ function ComponentsProps() {
               </li>
               <li>
                 <span className="color">className</span>=" "
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div className="text-start py-5 p-4 rounded shadow bg-white my-5">
+          <h2 className="p-3 color">TableGrid {`<TableGrid />`}</h2>
+          <div id="tableGrid">
+            <TableGrid title="Table Grid" />
+          </div>
+          <div className="py-4">
+            <ul className="propList">
+              <li>
+                <span className="color">dataSource</span>= [options array]
+              </li>
+              <li>
+                <span className="color">dataSource</span>= [options array]
               </li>
             </ul>
           </div>

@@ -3,13 +3,15 @@ function DropDown(props) {
   return (
     <select onChange={onChange} className={`dropDown ${className}`}>
       <option>Select {label}</option>
-      {dataSource.map((e, i) => {
-        return (
-          <option value={e} key={i}>
-            {e}
-          </option>
-        );
-      })}
+      {dataSource && Array.isArray(dataSource)
+        ? dataSource.map((e, i) => {
+            return (
+              <option value={e} key={i}>
+                {e}
+              </option>
+            );
+          })
+        : null}
     </select>
   );
 }
