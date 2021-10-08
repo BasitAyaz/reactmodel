@@ -1,9 +1,15 @@
 .App {
   text-align: center;
 }
+body {
+  background-color: #f8f8f8 !important;
+}
 .color {
-  color: #4361ee;
+  color: var(--primary);
 }
 .backgroundPrimary {
-  background-color: #4361ee;
+  background-color: var(--primary);
+}
+.fullHiehgt {
+  height: 100vh;
 }

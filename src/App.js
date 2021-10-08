@@ -1,4 +1,5 @@
 import "./App.css";
+import "./variable.css";
 import AppRoute from "./config/router";
 import "bootstrap/dist/css/bootstrap.min.css";
 

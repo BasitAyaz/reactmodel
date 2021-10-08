@@ -2,3 +2,6 @@
   padding: 10px;
   font-size: 1.2em;
 }
+.rightShadow {
+  box-shadow: 5px 0 10px rgba(0, 0, 0, 0.2);
+}
