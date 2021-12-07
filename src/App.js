@@ -1,7 +1,6 @@
 import "./App.css";
-import "./variable.css";
 import AppRoute from "./config/router";
-import "bootstrap/dist/css/bootstrap.min.css";
+import "./variable.css";
 
 function App() {
   return (

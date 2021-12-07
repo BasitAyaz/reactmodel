@@ -1,6 +1,3 @@
-import Home from "../../screen/home";
-import ComponentsProps from "../../screen/componentsprops";
-import LabScreen from "../../screen/labscreen";
-import Admin from "../../screen/admin";
+import Home from "../../screen/Home";
 
-export { Home, ComponentsProps, LabScreen, Admin };
+export { Home };
